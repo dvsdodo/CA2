@@ -1,8 +1,8 @@
 #site{
     /* Definimos a largura da página */
-    width:1000px;
+    width:600px;
     /* Definirmos a altura da página*/
-    height:700px;
+    height:550px;
     /* Aqui definiremos a posição que a página ocupará na tela, nesse caso estamos definindo que fique centralizado na tela*/
     /*top : posição de cima */
     margin-top:0;
@@ -17,23 +17,26 @@
   }
   #header{
     /*Novamente definimos a largura da div*/
-    width:1000px;
+    width:600px;
     /* altura da div */
-    height:100px;
+    height:50px;
     /* Cor de fundo da div */
     background-color:#00F;
+    text-align: center;
+    
     }
   #conteudo{
     /*Novamente definimos a largura da div*/
-    width:1000px;
+    width:600px;
     /* altura da div */
     height:500px;
     /* Cor de fundo da div */
     background-color:rgb(116, 108, 124);
+    text-align: unset;
   }
   #footer{
     /*Novamente definimos a largura da div*/
-    width:1000px;
+    width:600px;
     /* altura da div */
     height:100px;
     /* Cor de fundo da div */
@@ -41,9 +44,9 @@
     }
     #conteudo-right{
         /*Novamente definimos a largura da div*/
-        width:500px;
+        width:450px;
         /* altura da div */
-        height:400px;
+        height:350px;
         /* Pode parecer meio estranho usarmos o mesmo atributo left para o bloco
         em que queremos posicionar na direita, mas como sabemos, o CSS é um estilo
         em cascata, nossa div conteúdo definimos a largura de 1000px e na
